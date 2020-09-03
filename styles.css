@@ -76,7 +76,7 @@ p{
 /*Title Section*/
 
 #title{
-    text-align: left;
+    text-align: center;
 }
 
 /*Title Image*/
@@ -152,7 +152,6 @@ p{
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
-
 }
 
 
@@ -177,10 +176,12 @@ p{
 
 /*Media Query for Title Image*/
 
-@media (max-width:1028px){
+@media (max-width: 991px){
     #title{
-        text-align: center;
+        
     }
+}
+    @media (max-width: 991px){
     .title-image{
         position: static;
         transform: rotate(0);
